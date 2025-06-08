@@ -159,71 +159,75 @@ while (numericArray[x] !== 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+const charactersPosition = [];
 
 for (i = 0; i < charactersArray.length; i++) {
   switch (charactersArray[i]) {
     case "a":
-      console.log("1 ");
+      charactersPosition.push("1");
       break;
     case "b":
-      console.log("2 ");
+      charactersPosition.push("2");
       break;
     case "c":
-      console.log("3 ");
+      charactersPosition.push("3");
       break;
     case "d":
-      console.log("4 ");
+      charactersPosition.push("4");
       break;
     case "e":
-      console.log("5 ");
+      charactersPosition.push("5");
       break;
     case "f":
-      console.log("6 ");
+      charactersPosition.push("6");
       break;
     case "g":
-      console.log("7 ");
+      charactersPosition.push("7");
       break;
     case "h":
-      console.log("8 ");
+      charactersPosition.push("8");
       break;
     case "i":
-      console.log("9 ");
+      charactersPosition.push("9");
       break;
     case "l":
-      console.log("10 ");
+      charactersPosition.push("10");
       break;
     case "m":
-      console.log("11 ");
+      charactersPosition.push("11");
       break;
     case "n":
-      console.log("12 ");
+      charactersPosition.push("12");
       break;
     case "o":
-      console.log("13 ");
+      charactersPosition.push("13");
       break;
     case "p":
-      console.log("14 ");
+      charactersPosition.push("14");
       break;
     case "q":
-      console.log("15 ");
+      charactersPosition.push("15");
       break;
     case "r":
-      console.log("16 ");
+      charactersPosition.push("16");
       break;
     case "s":
-      console.log("17 ");
+      charactersPosition.push("17");
       break;
     case "t":
-      console.log("18 ");
+      charactersPosition.push("18");
       break;
     case "u":
-      console.log("19 ");
+      charactersPosition.push("19");
       break;
     case "v":
-      console.log("20 ");
+      charactersPosition.push("20");
       break;
     case "z":
-      console.log("21 ");
+      charactersPosition.push("21");
       break;
   }
 }
+
+console.log(charactersArray);
+console.log(charactersPosition);
