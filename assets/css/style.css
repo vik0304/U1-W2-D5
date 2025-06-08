@@ -3,6 +3,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* header + nav bar */
+
 header {
   background-color: #222f3f;
 }
@@ -36,10 +38,14 @@ nav a:visited {
   color: rgb(255, 255, 255);
 }
 
+/* main */
+
 main {
   padding: 2em;
   background-color: #e9edee;
 }
+
+/* top banners */
 
 #shopButton {
   background-color: #f56600;
@@ -77,6 +83,8 @@ main {
   color: white;
 }
 
+/* image banners */
+
 #fourImageBanner {
   background-color: white;
   padding: 1.8em;
@@ -111,16 +119,17 @@ h5 a:visited {
 }
 
 .images {
-  width: 409px;
+  width: 22.5%;
   height: 60vh;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
   display: inline-block;
+  box-shadow: 3px 8px 38px -1px rgba(0, 0, 0, 0.6);
 }
 
 #fourImageBanner :not(:last-child) {
-  margin-right: 44px;
+  margin-right: 3%;
 }
 
 #image1 {
@@ -140,13 +149,12 @@ h5 a:visited {
 }
 
 .bigPhotos img {
-  /* display: block; */
-  width: 1785px;
-  /* margin: 0 auto; */
+  width: 100%;
 }
 
 .bigPhotos {
-  padding: 1.8em;
+  padding: 0em;
+  margin-top: 1.8em;
 }
 
 .captions {
@@ -157,6 +165,8 @@ h5 a:visited {
 #firstCaption {
   margin-bottom: 2em;
 }
+
+/* footer */
 
 footer {
   text-align: center;
